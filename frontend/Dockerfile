@@ -6,4 +6,3 @@ RUN npm install && npm run build
 FROM nginx:alpine
 COPY . .
 EXPOSE 80
-
