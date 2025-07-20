@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 app.get('/ranuga', (req, res) => {
     res.send('Hello ranuga!');
 });
+
 export default app; 
 
 
